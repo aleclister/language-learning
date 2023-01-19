@@ -1,33 +1,47 @@
 import React from 'react'
 import Image from 'next/image';
-import v1Image from "../public/assets/v1.svg"
-import v2Image from "../public/assets/v2.svg"
-import v3Image from "../public/assets/v3.svg"
+import t1Image from "../public/assets/t1.svg"
+import t2Image from "../public/assets/t2.svg"
+import t3Image from "../public/assets/t3.svg"
+import italyImage from "../public/assets/italy.svg"
+import ukImage from "../public/assets/uk.svg"
+import spainImage from "../public/assets/spain.svg"
 
 const Teachers = () => {
   return (
-    <div className='container mx-auto py-20'>
-        <p className='text-xl font-medium text-gray-500 text-center'>WHY CHOOSE US</p>
-        <p className='text-5xl font-semibold text-gray-500 text-center mt-3'>Our Teachers</p>
+    <div className='container mx-auto'>
+        <p className='text-xl font-medium text-gray-500'>Staff</p>
+        <p className='text-5xl font-semibold text-gray-500 mt-3'>Meet Our Teachers</p>
         
         {/* Teachers Columns */}
-        <div className="grid grid-cols-3 gap-16 py-20">
-            <div className="flex flex-col gap-5 items-center">
-                <Image className='' src={v1Image} alt="First Value" />
-                <p className='text-2xl font-semibold'>Personalised lessons</p>
-                <p className='text-gray-500 text-center'>Teachers are able to prepare structured lesson plans, using our unique tools that are aimed at fixing the mistakes of each student</p>
+        <div className="grid grid-cols-3 gap-16 py-16">
+
+            <div className="flex flex-col gap-5">
+                <Image src={t1Image} alt="First Value" />
+                <p className='text-2xl font-semibold'>Thomas Zona</p>
+                <div className="flex items-center gap-2">
+                    <Image src={italyImage} alt="Italian Language" />
+                <p className='text-gray-500'>Italian Teacher</p>
+                </div>
             </div>
-            <div className="flex flex-col gap-5 items-center">
-                <Image className='' src={v2Image} alt="Second Value" />
-                <p className='text-2xl font-semibold'>High quality content</p>
-                <p className='text-gray-500 text-center'>Lesson content is optimised for conversation classes and helps students progress quickly. It also makes classes fun and educational at the same time</p>
+
+            <div className="flex flex-col gap-5">
+                <Image src={t2Image} alt="First Value" />
+                <p className='text-2xl font-semibold'>Emily Wilson</p>
+                <div className="flex items-center gap-2">
+                    <Image src={spainImage} alt="Spanish Language" />
+                <p className='text-gray-500'>Spanish Teacher</p>
+                </div>
             </div>
-            <div className="flex flex-col gap-5 items-center">
-                <Image className='' src={v3Image} alt="Third Value" />
-                <p className='text-2xl font-semibold'>Homework tools</p>
-                <p className='text-gray-500 text-center'>Students gain access to exercises and tools to help them practise lesson flashcards and homework between classes</p>
+
+            <div className="flex flex-col gap-5">
+                <Image src={t3Image} alt="First Value" />
+                <p className='text-2xl font-semibold'>Henry Button</p>
+                <div className="flex items-center gap-2">
+                    <Image src={ukImage} alt="English Language" />
+                <p className='text-gray-500'>English Teacher</p>
+                </div>
             </div>
-            
         </div>
     </div>
   )
