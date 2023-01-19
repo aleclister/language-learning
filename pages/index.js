@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Values from '../components/Values';
+import Teachers from '../components/Teachers';
 
 
 export default function Home() {
@@ -18,9 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      {/* <Navbar/> */}
       <Hero/>
       <Values/>
+      <Teachers/>
     
     </div>
   );

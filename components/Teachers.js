@@ -4,13 +4,13 @@ import v1Image from "../public/assets/v1.svg"
 import v2Image from "../public/assets/v2.svg"
 import v3Image from "../public/assets/v3.svg"
 
-const Values = () => {
+const Teachers = () => {
   return (
     <div className='container mx-auto py-20'>
         <p className='text-xl font-medium text-gray-500 text-center'>WHY CHOOSE US</p>
-        <p className='text-5xl font-semibold text-gray-500 text-center mt-3'>Our Values</p>
+        <p className='text-5xl font-semibold text-gray-500 text-center mt-3'>Our Teachers</p>
         
-        {/* Values Columns */}
+        {/* Teachers Columns */}
         <div className="grid grid-cols-3 gap-16 py-20">
             <div className="flex flex-col gap-5 items-center">
                 <Image className='' src={v1Image} alt="First Value" />
@@ -33,4 +33,4 @@ const Values = () => {
   )
 }
 
-export default Values
+export default Teachers
