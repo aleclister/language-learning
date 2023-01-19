@@ -21,7 +21,7 @@ const Teachers = () => {
                 <p className='text-2xl font-semibold'>Thomas Zona</p>
                 <div className="flex items-center gap-2">
                     <Image src={italyImage} alt="Italian Language" />
-                <p className='text-gray-500'>Italian Teacher</p>
+                    <p className='text-gray-500'>Italian Teacher</p>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ const Teachers = () => {
                 <p className='text-2xl font-semibold'>Emily Wilson</p>
                 <div className="flex items-center gap-2">
                     <Image src={spainImage} alt="Spanish Language" />
-                <p className='text-gray-500'>Spanish Teacher</p>
+                    <p className='text-gray-500'>Spanish Teacher</p>
                 </div>
             </div>
 
@@ -39,7 +39,7 @@ const Teachers = () => {
                 <p className='text-2xl font-semibold'>Henry Button</p>
                 <div className="flex items-center gap-2">
                     <Image src={ukImage} alt="English Language" />
-                <p className='text-gray-500'>English Teacher</p>
+                    <p className='text-gray-500'>English Teacher</p>
                 </div>
             </div>
         </div>

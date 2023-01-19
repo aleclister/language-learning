@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Values from '../components/Values';
 import Teachers from '../components/Teachers';
+import Student from '../components/Student';
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero/>
       <Values/>
       <Teachers/>
+      <Student/>
     
     </div>
   );
