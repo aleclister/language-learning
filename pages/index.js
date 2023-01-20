@@ -7,6 +7,8 @@ import Teachers from '../components/Teachers';
 import Student from '../components/Student';
 import MoreInfoModal from '../components/MoreInfoModal';
 import Cta from '../components/Cta';
+import Footer from '../components/Footer';
+
 
 export default function Home() {
   return (
@@ -27,6 +29,7 @@ export default function Home() {
       <Student/>
       <MoreInfoModal/>
       <Cta/>
+      <Footer/>
     
     </div>
   );
