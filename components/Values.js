@@ -7,11 +7,11 @@ import v3Image from "../public/assets/v3.svg"
 const Values = () => {
   return (
     <div className='container mx-auto py-20'>
-        <p className='text-xl font-medium text-gray-500 text-center'>WHY CHOOSE US</p>
-        <p className='text-5xl font-semibold text-gray-500 text-center mt-3'>Our Values</p>
+        <p className='text-xl lg:text-2xl font-medium text-gray-500 text-center'>WHY CHOOSE US</p>
+        <p className='text-4xl lg:text-5xl font-semibold text-gray-500 text-center mt-3'>Our Values</p>
         
         {/* Values Columns */}
-        <div className="grid grid-cols-3 gap-16 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-16 py-20">
             <div className="flex flex-col gap-5 items-center">
                 <Image className='' src={v1Image} alt="First Value" />
                 <p className='text-2xl font-semibold text-center'>Personalised lessons</p>
