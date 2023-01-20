@@ -16,7 +16,7 @@ const Student = () => {
         </p>
 
         {/* Image and Description */}
-        <div className="flex items-center justify-between mt-5">
+        <div className="flex items-center justify-between py-16">
             <Image src={studentImage} alt="Student" />
             <div className="flex flex-col gap-5 items-start max-w-sm">
                 <p className='text-4xl text-semibold'>
