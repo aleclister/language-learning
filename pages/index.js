@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Values from '../components/Values';
 import Teachers from '../components/Teachers';
 import Student from '../components/Student';
+import Moreinfo from '../components/Moreinfo';
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Values/>
       <Teachers/>
       <Student/>
+      <Moreinfo/>
     
     </div>
   );
