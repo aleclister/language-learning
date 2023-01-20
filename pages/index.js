@@ -6,7 +6,7 @@ import Values from '../components/Values';
 import Teachers from '../components/Teachers';
 import Student from '../components/Student';
 import MoreInfoModal from '../components/MoreInfoModal';
-
+import Cta from '../components/Cta';
 
 export default function Home() {
   return (
@@ -26,6 +26,7 @@ export default function Home() {
       <Teachers/>
       <Student/>
       <MoreInfoModal/>
+      <Cta/>
     
     </div>
   );
