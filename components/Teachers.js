@@ -10,13 +10,13 @@ import spainImage from "../public/assets/spain.svg"
 const Teachers = () => {
   return (
     <div className='container mx-auto'>
-        <p className='text-xl font-medium text-gray-500'>Staff</p>
-        <p className='text-4xl lg:text-5xl font-semibold text-gray-500 mt-3'>Meet Our Teachers</p>
+        <p className='text-base lg:text-xl font-medium text-gray-500'>Staff</p>
+        <p className='text-3xl lg:text-5xl font-semibold text-gray-500 mt-3'>Meet Our Teachers</p>
         
         {/* Teachers Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-16 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-10 lg:gap-16 lg:py-16">
 
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col items-center gap-5">
                 <Image src={t1Image} alt="First Value" />
                 <p className='text-xl lg:text-2xl font-semibold'>Thomas Zona</p>
                 <div className="flex items-center gap-2">
@@ -25,7 +25,7 @@ const Teachers = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col items-center gap-5">
                 <Image src={t2Image} alt="First Value" />
                 <p className='text-2xl font-semibold'>Emily Wilson</p>
                 <div className="flex items-center gap-2">
@@ -34,7 +34,7 @@ const Teachers = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col items-center gap-5">
                 <Image src={t3Image} alt="First Value" />
                 <p className='text-2xl font-semibold'>Henry Button</p>
                 <div className="flex items-center gap-2">

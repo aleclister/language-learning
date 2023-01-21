@@ -35,10 +35,10 @@ const MoreInfoModal = () => {
     <div className="container mx-auto py-20">
 
       {/* Title */}
-      <p className="text-xl font-medium text-gray-500 uppercase gap-3">
+      <p className="text-base lg:text-xl font-medium text-gray-500 uppercase gap-3">
         More Info
       </p>
-      <p className="text-5xl font-semibold text-gray-500 capitalize">
+      <p className="text-2xl lg:text-5xl font-semibold text-gray-500 capitalize">
         Common questions
       </p>
       

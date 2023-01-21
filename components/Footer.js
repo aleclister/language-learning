@@ -8,7 +8,7 @@ import { BsInstagram } from 'react-icons/bs';
 const Footer = () => {
   return (
     <div className="container mx-auto mt-20 mb-10">
-        <div className="bg-gray-100 grid grid-cols-5 gap-10 p-10 rounded-3xl items-start">
+        <div className="bg-gray-100 grid grid-cols-5 sm:grid-cols-2 gap-10 p-10 rounded-3xl items-start">
             <div className="space-y-5">
                 <Image className='w-64' src={logoImage} alt="Logo" />
                 <p>178 Kings Road, London, United Kingdom</p>

@@ -26,10 +26,10 @@ export default function Home() {
       <Hero/>
       <Values/>
       <Teachers/>
-      {/* <Student/>
+      <Student/>
       <MoreInfoModal/>
       <Cta/>
-      <Footer/> */}
+      <Footer/>
     
     </div>
   );
